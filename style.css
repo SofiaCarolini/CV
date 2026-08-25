@@ -1,0 +1,66 @@
+body{
+    background:#d9d9d9;
+    font-family:Arial, sans-serif;
+}
+
+.cv{
+    width:210mm;
+    min-height:297mm;
+    background:white;
+    margin:20px auto;
+    display:flex;
+}
+
+.lateral{
+    width:30%;
+    background: rgb(248, 245, 245);
+    padding:20px;
+}
+
+.foto{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius: 50%;
+
+}
+
+.lateral h3{
+    margin-top:20px;
+    color:rgb(0, 0, 0);
+}
+
+.lateral p{
+    font-size:14px;
+}
+
+.principal{
+    width:70%;
+    padding:25px;
+}
+
+.principal h1{
+    margin-bottom:30px;
+}
+
+.card{
+    border:1px solid white;
+    padding:15px;
+    margin-bottom:20px;
+    
+}
+
+.card h2{
+    color:rgb(0, 0, 0);
+    margin-bottom:10px;
+}
+
+@media print{
+    body{
+        background:white;
+    }
+
+    .cv{
+        margin:0;
+    }
+}
